@@ -12,3 +12,4 @@ Modify `bin/config.yml` with the corresponding values. Upon launching, the bot w
 
 # Building
 A `.vscode/tasks.json` is included for building the executable. It can also be built using `go build main.go`. and moving `main` to `bin/`.
+> NOTE: Building discordgo requires gcc in your PATH. If on Windows, I recommend [TDM](https://jmeubank.github.io/tdm-gcc/) as a "one-click" installer.
