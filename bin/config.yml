@@ -1,0 +1,12 @@
+# Discord bot details
+bot:
+  token: "<token>"
+  status: "<status>" # Shows as "playing <status>", omit for no status
+  requestChannel: "<channelID>"
+  votesRequired: 5
+  joinTimeout: 10
+
+# Google Cloud storage details
+gcs:
+  bucket: "<bucketName>"
+  #jsonKeyFile: "key.json"
